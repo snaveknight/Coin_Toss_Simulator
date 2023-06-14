@@ -63,11 +63,11 @@ public class CoinTosser extends JFrame implements ActionListener {
         int totalCount = headsCount + tailsCount;
 
         System.out.println("Statistics:");
-        System.out.println("Heads: " + headsCount);
-        System.out.println("Tails: " + tailsCount);
+        System.out.println("George Washington: " + headsCount);
+        System.out.println("Abe Lincoln: " + tailsCount);
         System.out.println("Total: " + totalCount);
-        System.out.println("Percentage of Heads: " + calculatePercentage(headsCount, totalCount) + "%");
-        System.out.println("Percentage of Tails: " + calculatePercentage(tailsCount, totalCount) + "%");
+        System.out.println("Percentage of George: " + calculatePercentage(headsCount, totalCount) + "%");
+        System.out.println("Percentage of Abe: " + calculatePercentage(tailsCount, totalCount) + "%");
         System.out.println();
     }
     
